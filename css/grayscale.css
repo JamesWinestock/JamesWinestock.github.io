@@ -9,9 +9,7 @@ body {
     height: 100%;
     font-family: Copperplate / Copperplate Gothic Light, sans-serif;
     color: #FFFFFF;
-    background: #2980b9;  fallback for old browsers
-    background: -webkit-linear-gradient(to left, #2980b9 , #2c3e50);  Chrome 10-25, Safari 5.1-6;
-    background: linear-gradient(to left, #2980b9 , #2c3e50); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+,; Opera 12+, Safari 7+;
+    background-color: #005656;
 }
 
 html {
@@ -150,7 +148,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #FFF;
-    background: url(../img/Fallen-Empire.jpg) no-repeat bottom center scroll;
+    background: url(../img/Savage-state.jpg) no-repeat bottom center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -165,8 +163,6 @@ a:focus {
 .intro .intro-body .brand-heading {
     font-size: 40px;
 }
-fdjdsbsgbrw
-dfbjsgbr
 
 .intro .intro-body .intro-text {
     font-size: 18px;
@@ -269,9 +265,9 @@ dfbjsgbr
     width: 100%;
     padding: 100px 0;
     color: #fff;
-    background-color: #333333;
-    /*background: #50C9C3; /* fallback for old browsers */*/
-    /*background: -webkit-linear-gradient(to left, #50C9C3 , #96DEDA); /* Chrome 10-25, Safari 5.1-6 */
+    background-color: #293131;
+    background: #293131; /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to left, #50C9C3 , #96DEDA); /* Chrome 10-25, Safari 5.1-6 */*/
     /*background: linear-gradient(to left, #50C9C3 , #96DEDA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -287,7 +283,7 @@ dfbjsgbr
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 100px;
     }
 
     .download-section {
@@ -314,8 +310,6 @@ dfbjsgbr
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
     background-color: transparent;
-    border-radius: 5px;
-    width: 200px;
 }
 
 .btn-default:hover,
@@ -324,7 +318,6 @@ dfbjsgbr
     outline: 0;
     color: #000000;
     background-color: #33ccff;
-
 }
 
 ul.banner-social-buttons {
